@@ -2,7 +2,7 @@
   "name": "vuex-model-helper",
   "version": "0.0.1",
   "description": "Vuex model helper",
-  "main": "vuex-model-helper.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },

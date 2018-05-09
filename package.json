@@ -1,0 +1,22 @@
+{
+  "name": "vuex-model-helper",
+  "version": "0.0.1",
+  "description": "Vuex model helper",
+  "main": "vuex-model-helper.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiaoJimmy/vuex-model-helper.git"
+  },
+  "keywords": [
+    "vue.js"
+  ],
+  "author": "liaojimmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiaoJimmy/vuex-model-helper/issues"
+  },
+  "homepage": "https://github.com/LiaoJimmy/vuex-model-helper#readme"
+}

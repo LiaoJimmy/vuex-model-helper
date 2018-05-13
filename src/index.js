@@ -23,6 +23,7 @@ const computedGenerator = modalArray => modalArray.reduce((previous, modal) => (
 const methodsGenerator = fieldArray => fieldArray.map(field => `EDIT_${toUpperCaseUnderline(field)}`);
 
 module.exports = {
+  toUpperCaseUnderline,
   computedGenerator,
   methodsGenerator,
   mutationGenerator,

@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src -d dist --presets babel-preset-stage-2",
-    "test": "jest"
+    "test": "jest --config test/jest.conf.js --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,14 @@
   },
   "homepage": "https://github.com/LiaoJimmy/vuex-model-helper#readme",
   "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0"
+    "eslint-plugin-import": "^2.11.0",
+    "jest": "^22.4.3"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",

@@ -8,6 +8,9 @@ module.exports = {
   transform: {
     '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
   },
+  testPathIgnorePatterns: [
+    '<rootDir>/example',
+  ],
   coverageDirectory: '<rootDir>/test/coverage',
   collectCoverageFrom: [
   ],

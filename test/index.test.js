@@ -30,9 +30,9 @@ describe('vuex-model', () => {
 
       const mutations = mutationGenerator(modalArray);
 
-      expect(mutations).toHaveProperty('EDIT_NAME');
-      expect(mutations).toHaveProperty('EDIT_EMAIL');
-      expect(mutations).toHaveProperty('EDIT_PASSWORD');
+      expect(mutations).toHaveProperty('CHANGE_NAME');
+      expect(mutations).toHaveProperty('CHANGE_EMAIL');
+      expect(mutations).toHaveProperty('CHANGE_PASSWORD');
     });
   });
 
@@ -60,9 +60,9 @@ describe('vuex-model', () => {
 
       const methods = methodsGenerator(modalArray);
 
-      expect(methods[0]).toBe('EDIT_NAME');
-      expect(methods[1]).toBe('EDIT_EMAIL');
-      expect(methods[2]).toBe('EDIT_PASSWORD');
+      expect(methods[0]).toBe('CHANGE_NAME');
+      expect(methods[1]).toBe('CHANGE_EMAIL');
+      expect(methods[2]).toBe('CHANGE_PASSWORD');
     });
   });
 });

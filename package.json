@@ -1,6 +1,6 @@
 {
   "name": "vuex-model-helper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Vuex model helper",
   "main": "./dist/index.js",
   "scripts": {

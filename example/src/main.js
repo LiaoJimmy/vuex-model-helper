@@ -3,13 +3,17 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import Vuex from './helper/vuex';
 
 Vue.config.productionTip = false;
+
+const store = Vuex.initStore(Vue);
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  router,
   components: { App },
   template: '<App/>',
+  router,
+  store,
 });

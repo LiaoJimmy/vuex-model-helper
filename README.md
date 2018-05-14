@@ -1,10 +1,7 @@
 # vuex-model-helper
 
-<a
-  target="_blank"
-  href="https://travis-ci.org/LiaoJimmy/vuex-model-helper"
->
-  <img 
+<a target="_blank" href="https://travis-ci.org/LiaoJimmy/vuex-model-helper">
+  <img
     src="https://travis-ci.org/LiaoJimmy/todo-list.svg?branch=master"
     alt="travis-build-result"
   />

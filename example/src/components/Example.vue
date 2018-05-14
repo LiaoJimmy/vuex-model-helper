@@ -4,7 +4,8 @@
       User Name:
       <input
         type="text"
-        v-model="userName">
+        v-model="userName"
+      >
     </div>
     <div>
       Gender:
@@ -13,21 +14,24 @@
         name="gender"
         type="radio"
         value="male"
-        v-model="gender">
+        v-model="gender"
+      >
       <label for="male">Male</label>
       <input
         id="female"
         name="gender"
         type="radio"
         value="female"
-        v-model="gender">
+        v-model="gender"
+      >
       <label for="female">Female</label>
     </div>
     <div>
       Note:
       <textarea
         v-model="note"
-        placeholder="Type some note"/>
+        placeholder="Type some note"
+      />
     </div>
     <div>
       Which is your favorite:
@@ -37,21 +41,24 @@
           name="language"
           id="c"
           value="c"
-          v-model="language">
+          v-model="language"
+        >
         <label for="c">C</label>
         <input
           type="checkbox"
           name="language"
           id="cPlusPlus"
           value="cPlusPlus"
-          v-model="language">
+          v-model="language"
+        >
         <label for="cPlusPlus">C++</label>
         <input
           type="checkbox"
           name="language"
           id="objectiveC"
           value="objectiveC"
-          v-model="language">
+          v-model="language"
+        >
         <label for="objectiveC">Objective-C</label>
       </div>
     </div>

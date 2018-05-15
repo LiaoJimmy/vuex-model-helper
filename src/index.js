@@ -22,7 +22,7 @@ const computedGenerator = modalArray => modalArray.reduce((previous, modal) => (
   },
 }), {});
 
-const methodsGenerator = fieldArray => fieldArray.map(field => `${PREFIX}${toUpperCaseUnderline(field)}`);
+const methodsGenerator = modalArray => modalArray.map(field => `${PREFIX}${toUpperCaseUnderline(field)}`);
 
 module.exports = {
   toUpperCaseUnderline,

@@ -34,7 +34,7 @@
       />
     </div>
     <div>
-      Which is your favorite:
+      What do you like:
       <div>
         <input
           type="checkbox"

@@ -29,7 +29,7 @@ const store = new Vuex.Store({
 });
 ```
 
-2. In your *.vue file, call ```computedGenerator()``` and ```methodsGenerator()``` to generate computed function and mutation method.
+2. In your *.vue file, call ```computedGenerator()``` and ```methodsGenerator()``` to generate computed object and mutation methods.
 ``` html
 <template>
   <div>

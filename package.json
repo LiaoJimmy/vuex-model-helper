@@ -1,10 +1,10 @@
 {
   "name": "vuex-model-helper",
-  "version": "0.0.6",
+  "version": "0.1.1",
   "description": "Vuex model helper",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src -d dist --presets babel-preset-stage-2; cp ./src/index.d.ts ./dist",
+    "build": "babel src -d dist --presets babel-preset-stage-2",
     "lint": "eslint --ext .js src test",
     "test": "jest --config test/jest.conf.js --coverage"
   },
@@ -37,7 +37,9 @@
   },
   "files": [
     "dist/",
+    "types/index.d.ts",
     "README.md",
     "package.json"
-  ]
+  ],
+  "typings": "types/index.d.ts"
 }

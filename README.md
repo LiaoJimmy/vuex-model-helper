@@ -66,8 +66,8 @@ export default {
 ```
 
 3. And then you can "change" your v-model and then trigger your mutation (CHANGE_USER_NAME).
-<img src="./example/screenshot/basic.png" width="500" style="margin-top: 10px; display:block" />
+<img src="./example/screenshot/example.gif" width="500" style="margin-top: 10px; display:block" />
 
 ## More example
-- [More HTML input element](https://github.com/LiaoJimmy/vuex-model-helper/tree/master/example)
+- [More HTML ```<input/>``` element](https://github.com/LiaoJimmy/vuex-model-helper/blob/master/example/src/components/Example.vue)
 - [Todo List with Element-UI](https://github.com/LiaoJimmy/todo-list)

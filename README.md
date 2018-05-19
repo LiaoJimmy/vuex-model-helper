@@ -9,6 +9,13 @@
 
 > Help you use vuex and v-model more happier
 
+## Installation
+``` bash
+yarn add vuex-model-helper
+# or by npm
+npm install --save vuex-model-helper
+```
+
 ## How to use vuex-model-helper
 1. Use ```mutationGenerator()``` to generate your v-model mutations
 ``` javascript
